@@ -13,7 +13,7 @@ This is a standard networking setup in AWS. In this situation:
 
 * All outbound traffic from the private subnets go through the (managed) NAT Gateway
 
-* Outbound traffic to the S3 API is magically routed (at layer 3, through a route table) to S3. Consequently, traffic from the private subnets to the EC2 API stays on a private network and doesn't traverse neither the Internet, nor the NAT gateway.
+* Outbound traffic to the S3 API is magically routed (at layer 3, through a route table) to S3. Consequently, traffic from the private subnets to the S3 API stays on a private network and doesn't traverse neither the Internet, nor the NAT gateway.
 
 ## Walkthrough
 
