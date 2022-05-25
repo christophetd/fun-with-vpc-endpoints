@@ -24,6 +24,8 @@ terraform init
 terraform apply
 ```
 
+For next steps, make sure you have the [AWS SSM plugin](https://docs.aws.amazon.com/systems-manager/latest/userguide/session-manager-working-with-install-plugin.html) installed on your laptop (to allow for easy remote access).
+
 ### Access the virtual machine in the private network
 
 As it's often the case, our virtual machine doesn't have a public IP. We can access it through AWS SSM:
